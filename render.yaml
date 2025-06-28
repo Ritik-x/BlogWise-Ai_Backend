@@ -7,4 +7,4 @@ services:
     startCommand: node server.js
     envVars: []
     rootDir: .
-    nodeVersion: 18
+    runtime: node # ✅ Correct field for specifying Node version
